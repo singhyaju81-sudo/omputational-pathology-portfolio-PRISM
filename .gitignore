@@ -1,0 +1,13 @@
+# never commit these
+*.svs
+*.tiff
+*.ndpi
+*.pt
+*.pth
+*.npz
+*.ckpt
+*.bin
+*.safetensors
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

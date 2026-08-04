@@ -1,0 +1,17 @@
+# Core (embeddings, models). Pin torch/torchvision together to avoid the nms/import conflict.
+torch==2.7.1
+torchvision==0.22.1
+transformers~=4.53.0
+timm
+einops==0.8.0
+
+# WSI + geometry + data
+openslide-python
+shapely
+numpy
+scikit-learn
+matplotlib
+requests
+
+# Model access (gated — requires your own approved HuggingFace account)
+huggingface-hub
